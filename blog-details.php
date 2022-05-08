@@ -27,7 +27,7 @@
       <div class="container">
         <div class="relative -mx-4 flex items-center justify-between">
           <div class="w-60 max-w-full px-4">
-            <a href="index.html" class="navbar-logo block w-full py-5">
+            <a href="index.php" class="navbar-logo block w-full py-5">
               <img
                 src="assets/images/logo/logo-white.svg"
                 alt="logo"
@@ -107,49 +107,49 @@
                       class="submenu relative top-full left-0 hidden w-[250px] rounded-sm bg-white p-4 transition-[top] duration-300 group-hover:opacity-100 lg:invisible lg:absolute lg:top-[110%] lg:block lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full"
                     >
                       <a
-                        href="about.html"
+                        href="about.php"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         About Page
                       </a>
                       <a
-                        href="pricing.html"
+                        href="pricing.php"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         Pricing Page
                       </a>
                       <a
-                        href="contact.html"
+                        href="contact.php"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         Contact Page
                       </a>
                       <a
-                        href="blog-grids.html"
+                        href="blog-grids.php"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         Blog Grid Page
                       </a>
                       <a
-                        href="blog-details.html"
+                        href="blog-details.php"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         Blog Details Page
                       </a>
                       <a
-                        href="signup.html"
+                        href="signup.php"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         Sign Up Page
                       </a>
                       <a
-                        href="signin.html"
+                        href="signin.php"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         Sign In Page
                       </a>
                       <a
-                        href="404.html"
+                        href="404.php"
                         class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                       >
                         404 Page
@@ -161,13 +161,13 @@
             </div>
             <div class="hidden justify-end pr-16 sm:flex lg:pr-0">
               <a
-                href="signin.html"
+                href="signin.php"
                 class="loginBtn py-3 px-7 text-base font-medium text-white hover:opacity-70"
               >
                 Sign In
               </a>
               <a
-                href="signup.html"
+                href="signup.php"
                 class="signUpBtn rounded-lg bg-white bg-opacity-20 py-3 px-6 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
               >
                 Sign Up
@@ -1128,7 +1128,7 @@
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
             <div class="wow fadeInUp group mb-10" data-wow-delay=".1s">
               <div class="mb-8 overflow-hidden rounded">
-                <a href="blog-details.html" class="block">
+                <a href="blog-details.php" class="block">
                   <img
                     src="assets/images/blog/blog-01.jpg"
                     alt="image"
@@ -1144,7 +1144,7 @@
                 </span>
                 <h3>
                   <a
-                    href="blog-details.html"
+                    href="blog-details.php"
                     class="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
                   >
                     Meet AutoManage, the best AI management tools
@@ -1160,7 +1160,7 @@
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
             <div class="wow fadeInUp group mb-10" data-wow-delay=".15s">
               <div class="mb-8 overflow-hidden rounded">
-                <a href="blog-details.html" class="block">
+                <a href="blog-details.php" class="block">
                   <img
                     src="assets/images/blog/blog-02.jpg"
                     alt="image"
@@ -1176,7 +1176,7 @@
                 </span>
                 <h3>
                   <a
-                    href="blog-details.html"
+                    href="blog-details.php"
                     class="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
                   >
                     How to earn more money as a wellness coach
@@ -1192,7 +1192,7 @@
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
             <div class="wow fadeInUp group mb-10" data-wow-delay=".2s">
               <div class="mb-8 overflow-hidden rounded">
-                <a href="blog-details.html" class="block">
+                <a href="blog-details.php" class="block">
                   <img
                     src="assets/images/blog/blog-03.jpg"
                     alt="image"
@@ -1208,7 +1208,7 @@
                 </span>
                 <h3>
                   <a
-                    href="blog-details.html"
+                    href="blog-details.php"
                     class="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
                   >
                     The no-fuss guide to upselling and cross selling

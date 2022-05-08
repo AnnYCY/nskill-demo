@@ -1,3 +1,18 @@
+<?php
+$servername = "localhost";
+$username = "admin";
+$password = "Ann1111aaaa";
+ 
+// 创建连接
+$conn = mysqli_connect ($servername, $username, $password);
+ 
+// 检测连接
+if ($conn->connect_error) {
+    die("连接失败: " . $conn->connect_error);
+} 
+echo "连接成功";
+?>
+
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 
@@ -26,7 +41,7 @@
     <div class="container">
       <div class="relative -mx-4 flex items-center justify-between">
         <div class="w-60 max-w-full px-4">
-          <a href="index.html" class="navbar-logo block w-full py-5">
+          <a href="index.php" class="navbar-logo block w-full py-5">
             <img src="assets/images/logo/logo-white.svg" alt="logo" class="header-logo w-full" />
           </a>
         </div>
@@ -72,23 +87,23 @@
                   </a>
                   <div
                     class="submenu relative top-full left-0 hidden w-[250px] rounded-sm bg-white p-4 transition-[top] duration-300 group-hover:opacity-100 lg:invisible lg:absolute lg:top-[110%] lg:block lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full">
-                    <a href="job-reference.html"
+                    <a href="job-reference.php"
                       class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary">
                       Job reference Page
                     </a>
                     <!-- <a
-                      href="signup.html"
+                      href="signup.php"
                       class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                     >
                       Sign Up Page
                     </a>
                     <a
-                      href="signin.html"
+                      href="signin.php"
                       class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
                     >
                       Sign In Page
                     </a> -->
-                    <a href="404.html" class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary">
+                    <a href="404.php" class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary">
                       404 Page
                     </a>
                   </div>
@@ -97,10 +112,10 @@
             </nav>
           </div>
           <div class="hidden justify-end pr-16 sm:flex lg:pr-0">
-            <a href="signin.html" class="loginBtn py-3 px-7 text-base font-medium text-white hover:opacity-70">
+            <a href="signin.php" class="loginBtn py-3 px-7 text-base font-medium text-white hover:opacity-70">
               Sign In
             </a>
-            <a href="signup.html"
+            <a href="signup.php"
               class="signUpBtn rounded-lg bg-white bg-opacity-20 py-3 px-6 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark">
               Sign Up
             </a>
@@ -202,7 +217,7 @@
             <p class="mb-8 text-body-color lg:mb-11">
               Lorem Ipsum is simply dummy text of the printing and industry.
             </p>
-            <a href="blog-grids.html" class="text-base font-medium text-body-color hover:text-primary">
+            <a href="blog-grids.php" class="text-base font-medium text-body-color hover:text-primary">
               Learn More
             </a>
           </div>
@@ -224,7 +239,7 @@
             <p class="mb-8 text-body-color lg:mb-11">
               Lorem Ipsum is simply dummy text of the printing and industry.
             </p>
-            <a href="blog-grids.html" class="text-base font-medium text-body-color hover:text-primary">
+            <a href="blog-grids.php" class="text-base font-medium text-body-color hover:text-primary">
               Learn More
             </a>
           </div>
@@ -255,7 +270,7 @@
             <p class="mb-8 text-body-color lg:mb-11">
               Lorem Ipsum is simply dummy text of the printing and industry.
             </p>
-            <a href="blog-grids.html" class="text-base font-medium text-body-color hover:text-primary">
+            <a href="blog-grids.php" class="text-base font-medium text-body-color hover:text-primary">
               Learn More
             </a>
           </div>
@@ -277,7 +292,7 @@
             <p class="mb-8 text-body-color lg:mb-11">
               Lorem Ipsum is simply dummy text of the printing and industry.
             </p>
-            <a href="blog-grids.html" class="text-base font-medium text-body-color hover:text-primary">
+            <a href="blog-grids.php" class="text-base font-medium text-body-color hover:text-primary">
               Learn More
             </a>
           </div>
@@ -314,7 +329,7 @@
                   to best protect highly vulnerable business applications with
                   interactive panel.
                 </p>
-                <a href="blog-grids.html"
+                <a href="blog-grids.php"
                   class="inline-flex items-center justify-center rounded bg-primary py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-90 hover:shadow-lg">
                   Learn More
                 </a>
